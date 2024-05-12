@@ -144,6 +144,6 @@ footer {
 }
 
 .carousel-inner > .item > img {
-   width:150px;
-   height:100px;
+   width: 50%;
+   margin: auto;
  }
