@@ -143,8 +143,15 @@ footer {
     color: black;
 }
 
+.color-theme-pink {
+    color: #FFC0CB;
+}
+
 .carousel-inner > .item > img {
    width: 50%;
    margin: auto;
  }
 
+.position-absolute {
+    color: #FFC0CB;
+}
