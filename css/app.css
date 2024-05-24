@@ -155,3 +155,10 @@ footer {
 .position-absolute {
     color: #FFC0CB;
 }
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
