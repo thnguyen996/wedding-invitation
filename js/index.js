@@ -9,7 +9,7 @@ $(document).ready(function(){
         vi: {
             welcome1: "Thiệp mời",
             thaihoangngocmy1: "Thái Hoàng & Ngọc Mỹ",
-            theweddingof: "Đám cưới của",
+            theweddingof: "Thiệp mời",
             thaihoangngocmy2: "Thái Hoàng & Ngọc Mỹ",
         }
     };
