@@ -65,12 +65,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
 
     <!-- App -->
     <link rel="stylesheet" href="./css/app.css">
     <script src="./js/app.js" type="module" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./js/translate.js"></script>
 </head>
 
 <body data-key="988e5823f0b7affc162ab4a5c8fc4e112cc68225a04048d295" data-url="https://wedding-site-backend.vercel.app/" style="overflow-y: hidden;" >
@@ -127,8 +127,8 @@
                     </div>
                 </div>
 
-                <h1 class="dancing-script my-4" id="thaihoangngocmy2" style="font-size: 2.5rem;">Thai Hoang<br>&<br>Ngoc My</h1>
-                <p class="mb-0" style="font-size: 1.5rem;">Quang Binh, July 25, 2023</p>
+                <h1 class="dancing-script my-4" id="thaihoangngocmy2" style="font-size: 2.5rem;">Thai Hoang & Ngoc My</h1>
+                <p class="mb-0" style="font-size: 1.5rem;" id="where">Quang Binh, July 25, 2024</p>
 
                 <a class="btn btn-outline-light btn-sm shadow
                     rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N2pwNmMxbmhqMDEzNmdkZHF2c2RrN2NxNGYgNGE3NzIzZjcyYzYyY2VlNzBiYTJiMDc4ZTA2YzY5MjNiZmEwZjQ3ODMzZWRkNzQ0NTMwZmI0MmM2MWFhYmY0OEBn&tmsrc=4a7723f72c62cee70ba2b078e06c6923bfa0f47833edd744530fb42c61aabf48%40group.calendar.google.com">
@@ -141,7 +141,7 @@
                     </div>
                 </div>
 
-                <p class="m-0">Scroll Down</p>
+                <p class="m-0" id="scroll1">Scroll Down</p>
             </div>
         </section>
 
@@ -165,7 +165,7 @@
                     </div>
                 </div>
 
-                <h1 class="py-4 px-2" style="font-size: 1.5rem">We invite you to share with us a celebration
+                <h1 class="py-4 px-2" style="font-size: 1.5rem" id="trantrongkinhmoi2">We invite you to share with us a celebration
                 of love and commitment</h1>
 
                 <!-- <p class="pb-3 px-3">
@@ -188,9 +188,9 @@
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
                             <img src="./assets/images/HQN00121.jpg" alt="groom" onclick="util.modal(this)">
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Thai Hoang Nguyen</h1>
-                        <p class="mt-3 mb-0" style="font-size: 1.25rem;">Groom</p>
-                        <p class="mb-0">
+                        <h1 class="dancing-script" style="font-size: 3rem;" id="thaihoang">Thai Hoang Nguyen</h1>
+                        <p class="mt-3 mb-0" style="font-size: 1.25rem;" id="groom1">Groom</p>
+                        <p class="mb-0 px-4" id="groomspeech">
                         Our observable universe has more than 2 trillion galaxies. Our galaxy has more than 100 billion stars. 
                         Our star, the sun, has eight planets. Our planet has 195 countries. Our countries has more than 98 million people.  
                         Yet somehow, by some miracle, I met you. The other half of my life. 
@@ -221,9 +221,14 @@
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
                             <img src="./assets/images/HQN00615.jpg" alt="cewe" onclick="util.modal(this)">
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Ngoc My Nguyen</h1>
-                        <p class="mt-3 mb-0" style="font-size: 1.25rem;">Bride</p>
-                        <p class="mb-0">Who's singing?</p>
+                        <h1 class="dancing-script" style="font-size: 3rem;" id="ngocmy">Ngoc My Nguyen</h1>
+                        <p class="mt-3 mb-0" style="font-size: 1.25rem;" id="bride1">Bride</p>
+                        <p class="mb-0 px-4" id="bridespeech">
+                        Throughout 5 years of our journey, you have shown me your constant support, patience,
+                        and more love than I’ve ever seen. It has changed Ngoc My into My-me today. 
+                        I’m happier with you, and because of you. Thank you for loving my clumsy, silly, 
+                        and crazy things, as much as I am. Love you more than I can say.
+                        </p>
                     </div>
                 </div>
 
@@ -282,7 +287,7 @@
             <div class="container">
                 <div class="text-center">
 
-                    <h1 class="font-esthetic py-3" style="font-size: 3rem;">Time to Event</h1>
+                    <h1 class="montecarlo-regular py-3" style="font-size: 3rem;">Time to Event</h1>
                     <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4">
 
                         <!-- Ganti waktunya pada data-waktu (sesuai format tersebut) -->
@@ -294,7 +299,7 @@
                         </div>
                     </div>
 
-                    <h1 class="font-esthetic py-3" style="font-size: 3rem;">Event Schedule</h1>
+                    <h1 class="montecarlo-regular py-3" style="font-size: 3rem;" id="eventschedule1">Event Schedule</h1>
 
                     <!-- Love animation -->
                     <div class="position-relative">
@@ -307,34 +312,34 @@
 
                     <div class="overflow-x-hidden">
                         <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-                            <h1 class="font-esthetic"
+                            <h1 class="py-2" id="settle"
                                 style="font-size: 2rem;">Settling down</h1>
-                            <p>8:00 - 8:30 AM</p>
+                            <p>9:45 - 10:00 AM</p>
                         </div>
                     </div>
 
                     <div class="overflow-x-hidden">
                         <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-                            <h1 class="font-esthetic"
+                            <h1 class="py-2" id="startevent"
                                 style="font-size: 2rem;">Wedding Ceremony</h1>
-                            <p>8:30 - 9:30 AM</p>
+                            <p>10:00 - 10:30 AM</p>
                         </div>
                     </div>
 
                     <div class="overflow-x-hidden">
                         <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-                            <h1 class="font-esthetic"
+                            <h1 class="py-2" id="dancingtime"
                                 style="font-size: 2rem;">Dancing Time</h1>
-                            <p>9:30 - 10:00 AM</p>
+                            <p>10:30 - 11:00 AM</p>
                         </div>
                     </div>
 
                     <div class="py-2" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="https://maps.app.goo.gl/5C5ReERYxm3iDa9T8" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
-                            <i class="fa-solid fa-map-location-dot
-                                me-2"></i>Google Maps Location
+                        <a href="https://maps.app.goo.gl/5C5ReERYxm3iDa9T8" target="_blank" id="pingooglemap" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">
+                            <i class="fa-solid fa-map-location-dot 
+                                me-2" ></i>Google Maps Location
                         </a>
-                        <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 0.9rem;">
+                        <p class="mb-0 mt-1 mx-1 pb-4" style="font-size: 1rem;" id="address1">
                             Thon 2 Football field, Lam Trach, Bo Trach, Quang Binh
                         </p>
                     </div>
@@ -425,7 +430,7 @@
 
                     <h1 class="font-esthetic mt-0 mb-3" style="font-size: 3rem;">Love Gift</h1>
 
-                    <p class="mb-1" style="font-size: 0.9rem;">
+                    <p class="mb-1" style="font-size: 0.9rem;" id="lovegiftmessage">
                         Your presence will be the greatest gift, but if you wish to honor us with a gift, 
                         a contribution to our honeymoon fund would be greatly appreciated.
                     </p>
@@ -570,11 +575,14 @@
                     <img src="./assets/images/bg2.jpg" alt="background">
                 </div>
 
-                <h1 class="dancing-script my-4" id="thaihoangngocmy1" style="font-size:
-                    2.5rem;">Thai Hoang & Ngoc My </h1>
+                <h1 class="dancing-script px-2" id="tenkhach" style="font-size: 3rem;">Guess name</h1>
+                <h1 class="dancing-script px-1.5" id="loimoi" style="font-size: 2rem;">Tới tham dự buổi lễ thành hôn của</h1>
+
+                <h1 class="dancing-script my-3" id="thaihoangngocmy1" style="font-size:
+                    3rem;">Thai Hoang & Ngoc My </h1>
                 <div id="guest-name" data-message="Kepada Yth Bapak/Ibu/Saudara/i"></div>
 
-                <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.open(this)">
+                <button type="button" class="btn btn-light shadow rounded-4 mt-3" id="openbutton" onclick="util.open(this)">
                     <i class="fa-solid fa-envelope-open me-2"></i>Open Invitation
                 </button>
                 <button type="button" id="button-them" style="display: none;" class="btn bg-dark border border-2 btn-sm rounded-circle btn-theme" onclick="">
