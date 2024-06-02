@@ -312,14 +312,14 @@
 
                     <div class="overflow-x-hidden">
                         <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-                            <h1 class="py-2" id="settle"
+                            <h1 class="dancing-script" id="settle"
                                 style="font-size: 2rem;">Settling down</h1>
                             <p>9:45 - 10:00 AM</p>
                         </div>
                     </div>
 
                     <div class="overflow-x-hidden">
-                        <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="dancing-script" data-aos="fade-left" data-aos-duration="1500">
                             <h1 class="py-2" id="startevent"
                                 style="font-size: 2rem;">Wedding Ceremony</h1>
                             <p>10:00 - 10:30 AM</p>
@@ -327,7 +327,7 @@
                     </div>
 
                     <div class="overflow-x-hidden">
-                        <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="dancing-script" data-aos="fade-left" data-aos-duration="1500">
                             <h1 class="py-2" id="dancingtime"
                                 style="font-size: 2rem;">Dancing Time</h1>
                             <p>10:30 - 11:00 AM</p>
@@ -473,7 +473,7 @@
                     <div class="mb-1" id="balasan"></div>
 
                     <div class="mb-3">
-                        <label for="form-name" class="form-label">Name</label>
+                        <label for="form-name" class="form-label" id="commentname">Name</label>
                         <input type="text" class="form-control shadow-sm" id="form-name" placeholder="Nguyen Van A">
                     </div>
 
@@ -481,15 +481,15 @@
                         <label for="form-presence" class="form-label" id="label-kehadiran">RSVP</label>
                         <select class="form-select shadow-sm" id="form-presence">
                             <option value="0" selected>RSVP</option>
-                            <option value="1">I will be there</option>
-                            <option value="2">I won't be there</option>
+                            <option value="1" id="presence">I will be there</option>
+                            <option value="2" id="notpresence">I won't be there</option>
                         </select>
                     </div>
 
                     <div class="mb-3">
-                        <label for="form-comment" class="form-label">Your wishes</label>
+                        <label for="form-comment" class="form-label" id="yourwishes">Your wishes</label>
                         <div id="information" class="alert alert-info alert-dismissible fade show" role="alert">
-                            <p style="font-size: 1.5rem;">Send us your love and wishes!!!</p>
+                            <p style="font-size: 1.5rem;" id="commentmessage">Send us your love and wishes!!!</p>
                             <!-- <p class="m-0">Please feel free to write anything here. </p> -->
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="localStorage.setItem('alertClosed', 'true');"></button>
                         </div>
@@ -536,13 +536,13 @@
         <div class="container">
             <div class="text-center">
 
-                <p style="font-size: 1.5rem;" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">
+                <p id="finalword" style="font-size: 1.5rem;" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">
                 We eagerly anticipate celebrating this special day with you. <br>
                 With love and warm regards, <br>
                     Thai Hoang & Ngoc My
                 </p>
 
-                <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">Thank you</h1>
+                <h1 class="dancing-script" id="thankyou" data-aos="fade-up" data-aos-duration="2000">Thank you</h1>
 
                 <hr class="mt-3 mb-2">
 

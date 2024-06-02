@@ -40,6 +40,15 @@ $(document).ready(function(){
             pingooglemap: "<i class=\"fa-solid fa-map-location-dot me-2\" ></i>Pin Google Maps",
             address1: "Sân bóng Thôn 2, Xã Lâm Trạch, Huyện Bố Trạch, Tỉnh Quảng Bình",
             lovegiftmessage: "Mọi yêu thương/quà tặng đến với cô dâu và chú rể xin được gửi về:",
+            commentname: "Tên",
+            RSVP: "Tham dự/Không tham dự",
+            presence: "Tôi sẽ tới tham dự buổi lễ",
+            notpresence: "Tôi không thể tới tham dự buổi lễ",
+            yourwishes: "Lời chúc",
+            commentmessage: "Hãy để lại nhưng lời chúc của bạn tới cô dâu và chú rể!!!",
+            commentbox: "Viết lời chúc của bạn ở đây",
+            finalword: "Sự hiện diện của quý khách là lời chúc phúc ý nghĩa nhất với cô dâu và chú rể. <br> Thân ái, <br> Thái Hoàng & Ngọc Mỹ",
+            thankyou: "Xin cảm ơn",
         }
     };
 
@@ -75,6 +84,18 @@ $(document).ready(function(){
             dancingtime.textContent = language.vi.dancingtime;
             pingooglemap.innerHTML = language.vi.pingooglemap;
             address1.innerHTML = language.vi.address1;
+            lovegiftmessage.textContent = language.vi.lovegiftmessage;
+            commentname.textContent = language.vi.commentname;
+            const RSVP = document.getElementById("label-kehadiran");
+            RSVP.textContent = language.vi.RSVP;
+            presence.textContent = language.vi.presence;
+            notpresence.textContent = language.vi.notpresence;
+            yourwishes.textContent = language.vi.yourwishes;
+            commentmessage.textContent = language.vi.commentmessage;
+            const commentbox = document.getElementById("form-comment");
+            commentbox.placeholder = language.vi.commentbox;
+            finalword.innerHTML = language.vi.finalword;
+            thankyou.textContent = language.vi.thankyou;
             } } 
     else {
             const tenkhach = document.getElementById("tenkhach");
