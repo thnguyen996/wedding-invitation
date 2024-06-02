@@ -36,7 +36,7 @@ $(document).ready(function(){
             eventschedule1: "Thời gian diễn ra buổi lễ",
             settle: "Ổn định chỗ ngồi",
             startevent: "Bắt đầu buổi lễ",
-            dancingtime: "Giao lưu âm nhạc",
+            dancingtime: "Tiệc rượu & Giao lưu âm nhạc",
             pingooglemap: "<i class=\"fa-solid fa-map-location-dot me-2\" ></i>Pin Google Maps",
             address1: "Sân bóng Thôn 2, Xã Lâm Trạch, Huyện Bố Trạch, Tỉnh Quảng Bình",
             lovegiftmessage: "Mọi yêu thương/quà tặng đến với cô dâu và chú rể xin được gửi về:",
