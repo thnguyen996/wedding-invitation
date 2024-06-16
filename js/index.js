@@ -3,8 +3,20 @@ $(document).ready(function(){
     const urlParams = new URLSearchParams(window.location.search);
     const guest_name = urlParams.get('name');
     var guests = {
-        tuyet: "Bạn Tuyết",
         chihuong: "Chị Hương",
+        chivy: "Chị Vy",
+        phuonglinh: "Phương Linh",
+        chitrinh: "Gia đình chị Trinh",
+        cauhung: "Gia đình cậu Hưng",
+        emhoang: "Em Hoàng",
+        emtung: "Em Tùng",
+        emhoanganh: "Em Hoàng Anh",
+        emhoangphuc: "Em Hoàng Phúc",
+        emhaiduc: "Em Hải Đức",
+        tuyet: "Bạn Tuyết",
+        giang: "Bạn Giang",
+        linh: "Bạn Linh",
+        mai: "Bạn Mai",
     };
     // console.log(guesses[guess_name])
     if (guest_name) {
@@ -29,12 +41,13 @@ $(document).ready(function(){
             trantrongkinhmoi2: "Trân trọng kính mời Quý khách tới dự buổi tiệc rượu chung vui cùng gia đình chúng tôi",
             thaihoang: "Nguyễn Thái Hoàng",
             groom1: "Chú rể",
-            groomspeech: " Our observable universe has more than 2 trillion galaxies. Our galaxy has more than 100 billion stars. Our star, the sun, has eight planets. Our planet has 195 countries. Our countries has more than 98 million people.  Yet somehow, by some miracle, I met you. The other half of my life.",
+            groomspeech: "Anh vốn không phải là người lãng mạn, không quen nói những lời ngọt ngào. Từ khi quen em, em đã dạy rằng, là đàn ông, không cần thiết phải lãng mạn cũng đc, nhưng nhất thiết phải \"sạch sẽ\". Cảm ơn em vì đã đồng hành cùng anh qua những tháng ngày giông bão. Cảm ơn em đã đồng ý lấy anh làm chồng. Cảm ơn em vì tất cả. Yêu em!!!", 
             ngocmy: "Nguyễn Thị Ngọc Mỹ",
             bride1: "Cô dâu",
             bridespeech: " Em từng là một cô gái luôn sống mạnh mẽ, độc lập, và không tin vào tình yêu. Sự kiên nhẫn và ấm áp anh giành cho em đã thay đổi em từng ngày. Và giờ đây, em là một cô gái nhìn cuộc đời với nhiều màu sắc và luôn sống hết mình với tình yêu. Cảm ơn anh đã đến bên em.",
             eventschedule1: "Thời gian diễn ra buổi lễ",
             settle: "Ổn định chỗ ngồi",
+            lovestory: "Các bạn có tin vào duyên số không? Còn chúng tớ thì hoàn toàn tin vào điều đó. Khi mà hai đứa chúng tớ sinh ra và lớn lên ở hai miền của đất nước, như hai đường thẳng song song trong suốt 23 năm đầu tiên cuộc đời. Chúng tớ lại may mắn gặp được nhau ở một đất nước xa lạ vào năm 24 tuổi, cùng nhau trưởng thành hơn, rồi kết hôn ở tuổi 28. Không giống như phim \"Sungkyunkwan scandal\", nhưng chúng tớ cũng đã gặp gỡ, yêu thương, và trở thành người thân của nhau ở Sungkyunkwan như vậy đấy ^^.",
             startevent: "Bắt đầu buổi lễ",
             dancingtime: "Tiệc rượu & Giao lưu âm nhạc",
             pingooglemap: "<i class=\"fa-solid fa-map-location-dot me-2\" ></i>Pin Google Maps",
@@ -78,6 +91,7 @@ $(document).ready(function(){
             ngocmy.textContent = language.vi.ngocmy;
             bride1.textContent = language.vi.bride1;
             bridespeech.textContent = language.vi.bridespeech;
+            lovestory.textContent = language.vi.lovestory;
             eventschedule1.textContent = language.vi.eventschedule1;
             startevent.textContent = language.vi.startevent;
             settle.textContent = language.vi.settle;
