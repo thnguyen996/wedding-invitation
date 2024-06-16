@@ -110,13 +110,7 @@ $(document).ready(function(){
             commentbox.placeholder = language.vi.commentbox;
             finalword.innerHTML = language.vi.finalword;
             thankyou.textContent = language.vi.thankyou;
-            } } 
-    else {
-            const tenkhach = document.getElementById("tenkhach");
-            tenkhach.remove();
-            const loimoi = document.getElementById("loimoi");
-            loimoi.remove();
-            };
+            } };
     window.addEventListener(
         "hashchange",
         () => {
