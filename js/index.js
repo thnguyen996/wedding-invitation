@@ -3,6 +3,7 @@ $(document).ready(function(){
     const urlParams = new URLSearchParams(window.location.search);
     const guest_name = urlParams.get('name');
     var guests = {
+        // Bạn Mỹ
         chihuong: "Chị Hương",
         chivy: "Chị Vy",
         phuonglinh: "Phương Linh",
@@ -17,6 +18,35 @@ $(document).ready(function(){
         giang: "Bạn Giang",
         linh: "Bạn Linh",
         mai: "Bạn Mai",
+        // Bạn Hoàng
+        datbui: "Bạn Đạt Bùi",
+        hieupham: "Bạn Hiệu",
+        tien: "Bạn Tiến",
+        trinh: "Bạn Trình",
+        quan: "Bạn Quân",
+        phuong: "Bạn Phương",
+        phuoc: "Bạn Phước",
+        man: "Bạn Mẫn",
+        hieubo: "Bạn Hiếu (Bố)",
+        // Nhà cậu mự
+        caudoan: "Gia đình cậu Đoàn",
+        emson: "Em Sơn",
+        caudai: "Gia đình cậu Đại",
+        dihuong: "Gia đình dì Hương",
+        cauhung: "Gia đình cậu Hùng",
+        // cấp 3
+        cohoa: "Cô Hoa",
+        duong: "Bạn Dương",
+        quy: "Bạn Quý",
+        vinhha: "Bạn Vĩnh Hà",
+        ngocanh: "Bạn Ngọc Anh",
+        vietdung: "Bạn Việt Dũng",
+        anhthu: "Bạn Thư",
+        ducdung: "Bạn Đức Dũng",
+        hieubu: "Bạn Hiếu",
+        quoc: "Bạn Quốc",
+        huyentrang: "Bạn Trang",
+        thanhhien: "Bạn Hiền",
     };
     // console.log(guesses[guess_name])
     if (guest_name) {
@@ -58,7 +88,7 @@ $(document).ready(function(){
             presence: "Tôi sẽ tới tham dự buổi lễ",
             notpresence: "Tôi không thể tới tham dự buổi lễ",
             yourwishes: "Lời chúc",
-            commentmessage: "Hãy để lại nhưng lời chúc của bạn tới cô dâu và chú rể!!!",
+            commentmessage: "Hãy để lại những lời chúc của bạn tới cô dâu và chú rể!!!",
             commentbox: "Viết lời chúc của bạn ở đây",
             finalword: "Sự hiện diện của quý khách là lời chúc phúc ý nghĩa nhất với cô dâu và chú rể. <br> Thân ái, <br> Thái Hoàng & Ngọc Mỹ",
             thankyou: "Xin cảm ơn",
