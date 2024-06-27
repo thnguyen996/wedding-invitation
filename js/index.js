@@ -27,6 +27,7 @@ $(document).ready(function(){
         phuong: "Bạn Phương",
         phuoc: "Bạn Phước",
         man: "Bạn Mẫn",
+        phuc: "Bạn Phúc",
         hieubo: "Bạn Hiếu (Bố)",
         // Nhà cậu mự
         caudoan: "Gia đình cậu Đoàn",
