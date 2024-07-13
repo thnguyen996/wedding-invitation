@@ -29,6 +29,7 @@ $(document).ready(function(){
         man: "Bạn Mẫn",
         phuc: "Bạn Phúc",
         hieubo: "Bạn Hiếu (Bố)",
+        kimanh: "Em Kim Anh",
         // Nhà cậu mự
         caudoan: "Gia đình cậu Đoàn",
         emson: "Em Sơn",
@@ -48,6 +49,10 @@ $(document).ready(function(){
         quoc: "Bạn Quốc",
         huyentrang: "Bạn Trang",
         thanhhien: "Bạn Hiền",
+        hoanghoa: "Bạn Hoàng Hòa",
+        linhngoc: "Bạn Linh Ngọc",
+        khanhlinh: "Bạn Khánh Linh",
+        phuoccap3: "Bạn Phước",
     };
     // console.log(guesses[guess_name])
     if (guest_name) {
