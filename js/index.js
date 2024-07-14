@@ -30,6 +30,11 @@ $(document).ready(function(){
         phuc: "Bạn Phúc",
         hieubo: "Bạn Hiếu (Bố)",
         kimanh: "Em Kim Anh",
+        hoailinh: "Em Hoài Linh",
+        anhsi: "Anh Sỹ",
+        soc: "Em Hiền Trang (Sóc)",
+        hai: "Em Hải",
+        tu: "Bạn Tú",
         // Nhà cậu mự
         caudoan: "Gia đình cậu Đoàn",
         emson: "Em Sơn",
