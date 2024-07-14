@@ -35,6 +35,7 @@ $(document).ready(function(){
         soc: "Em Hiền Trang (Sóc)",
         hai: "Em Hải",
         tu: "Bạn Tú",
+        anhhieu: "Anh Hiếu",
         // Nhà cậu mự
         caudoan: "Gia đình cậu Đoàn",
         emson: "Em Sơn",
